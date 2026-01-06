@@ -59,17 +59,6 @@ The main column of interest is **`Churn`**:
 
 ---
 
-📂 **Project Notebooks**
-
-- Step 1: [Customer Retention Prediction (EDA)](Step1_Data_Understanding/Customer_Retention_Predicition.ipynb)  
-- Step 2: [Data Cleaning & Preprocessing](Step2_Data_Cleaning/Data_Cleaning.ipynb)  
-- Step 3: [Model Development](Step3_Modeling/Model_Development.ipynb)  
-- Step 4: [Explainability & Deployment](Step4_Deployment/Deployment.ipynb)  
-
-> Make sure the notebook names match exactly with the files you upload.
-
----
-
 📌 **Current Status**
 
 - ✅ Step 1 Completed (EDA, visualizations, initial insights)  
@@ -77,11 +66,6 @@ The main column of interest is **`Churn`**:
 - ⏳ Step 3 Pending (Modeling & prediction)  
 - ⏳ Step 4 Pending (Explainability & deployment)
 
----
 
-📌 **How to Run the Code**
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/PavanIllal/Telco-Customer-Churn.git
