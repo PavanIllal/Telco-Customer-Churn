@@ -33,7 +33,7 @@ The project uses the **Telco Customer Churn dataset**.
 | 5575-GNVDE | Male   | 0             | No     | No         | 34    | Yes          | 56.95          | 1889.5       | No    |
 | 3668-QPYBK | Male   | 0             | No     | No         | 2     | Yes          | 53.85          | 108.15       | Yes   |
 
-You can also download the dataset from Kaggle: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+You can also download the dataset from Kaggle: [Telco Customer Churn](https:https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
 
@@ -75,11 +75,6 @@ The main column of interest is **`Churn`**:
 - ⏳ Step 3 Pending (Modeling & prediction)  
 - ⏳ Step 4 Pending (Explainability & deployment)
 
----
 
-📌 **How to Run the Code**
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/PavanIllal/Telco-Customer-Churn.git
