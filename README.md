@@ -1,76 +1,85 @@
 # Telco Customer Churn Analysis
 
-🔍 Project Overview
-Customer retention is a major challenge for telecom companies. Losing customers not only reduces revenue but also affects long-term business growth.
+🔍 **Project Overview**  
+Customer retention is a major challenge for telecom companies. Losing customers reduces revenue and affects long-term growth.  
+This project focuses on analyzing **Telco Customer Churn** data to understand patterns of churn and identify customers likely to leave. Insights can help telecom operators take preventive actions.
 
-This project focuses on analyzing telecom customer data to understand patterns of churn and identify customers who are likely to leave the service. The insights gained can help telecom operators take preventive actions to improve customer retention.
+---
 
-🎯 Business Problem
-Customer churn happens when a customer stops using a service. Many telecom companies realize churn after it happens, leading to:
+🎯 **Business Problem**  
+Customer churn occurs when a customer stops using a service. Many telecom companies notice churn **after it happens**, which leads to:  
+- Revenue loss  
+- Difficulty identifying dissatisfied customers early  
+- Challenges in taking timely preventive measures  
 
-Loss of revenue
+**Goal:** Predict potential churn in advance and enable proactive retention strategies.
 
-Difficulty identifying dissatisfied customers early
+---
 
-Challenges in taking timely preventive measures
+📂 **Dataset**
 
-The goal of this project is to predict potential churn in advance and enable proactive retention strategies.
+The project uses the **Telco Customer Churn dataset**.  
 
-📂 Dataset Understanding
-The dataset used is the Telco Customer Churn dataset from Kaggle (https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
+- **File path in repo:** `dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv`  
+- **Total rows:** 7043  
+- **Total columns:** 21  
+- **Column examples:** `gender`, `SeniorCitizen`, `Partner`, `tenure`, `MonthlyCharges`, `TotalCharges`, `Churn`  
 
-Rows: Each row represents a single customer
+**Sample of dataset:**
 
-Columns: 21 columns including:
+| customerID | gender | SeniorCitizen | Partner | Dependents | tenure | PhoneService | MonthlyCharges | TotalCharges | Churn |
+|------------|--------|---------------|--------|------------|-------|--------------|----------------|--------------|-------|
+| 7590-VHVEG | Female | 0             | Yes    | No         | 1     | No           | 29.85          | 29.85        | No    |
+| 5575-GNVDE | Male   | 0             | No     | No         | 34    | Yes          | 56.95          | 1889.5       | No    |
+| 3668-QPYBK | Male   | 0             | No     | No         | 2     | Yes          | 53.85          | 108.15       | Yes   |
 
-Customer demographic information (gender, SeniorCitizen, Partner, Dependents)
+You can also download the dataset from Kaggle: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-Service subscriptions (PhoneService, InternetService, OnlineSecurity, StreamingTV, etc.)
+---
 
-Billing and account information (MonthlyCharges, TotalCharges, Contract, PaymentMethod)
+🎯 **Target Variable**
 
-Includes both numerical and categorical features
+The main column of interest is **`Churn`**:  
 
-🎯 Target Variable
-The main column of interest is Churn:
+| Value | Meaning |
+|-------|---------|
+| Yes   | Customer has left the service |
+| No    | Customer is still using the service |
 
-Value	Meaning
-Yes	Customer has left the service
-No	Customer is still using the service
+---
 
-This column will be used to understand retention behavior and build predictive models.
+🗺️ **Project Roadmap**
 
-🗺️ Project Plan
-The project will be carried out in the following stages:
+| Stage   | Task                          | Status      |
+|---------|-------------------------------|------------|
+| Stage 1 | Data Understanding & Documentation | ✅ Completed |
+| Stage 2 | Data Cleaning & EDA           | ⏳ Pending  |
+| Stage 3 | Model Development             | ⏳ Pending  |
+| Stage 4 | Explainability & Deployment   | ⏳ Pending |
 
-Dataset Understanding & Documentation
+---
 
-Data Cleaning & Preparation
+📂 **Project Notebooks**
 
-Exploratory Data Analysis (EDA)
+- Step 1: [Data Understanding & EDA](Step1_Data_Understanding/Step1_EDA.ipynb)  
+- Step 2: [Data Cleaning & Preprocessing](Step2_Data_Cleaning/Step2_Cleaning.ipynb)  
+- Step 3: [Model Development](Step3_Modeling/Step3_Model.ipynb)  
+- Step 4: [Explainability & Deployment](Step4_Deployment/Step4_Deployment.ipynb)  
 
-Model Building & Prediction
+---
 
-Evaluation & Insights
+📌 **Current Status**
 
-🗺️ Project Roadmap
+- ✅ Step 1 Completed (EDA, visualizations, initial insights)  
+- ⏳ Step 2 Pending (Data cleaning and preprocessing)  
+- ⏳ Step 3 Pending (Modeling & prediction)  
+- ⏳ Step 4 Pending (Explainability & deployment)
 
-Stage	Task	Status
-Stage 1	Data Understanding & Documentation	
-✅ Completed
-Stage 2	Data Cleaning & EDA	⏳ Pending
-Stage 3	Model Development	⏳ Pending
-Stage 4	Explainability & Deployment	⏳ Pending
+---
 
-📌 Current Status
-✅ Step 1 Completed
+📌 **How to Run the Code**
 
-Dataset has been loaded and inspected
+1. Clone the repository:
 
-Missing values and data types checked (TotalCharges converted to numeric, missing values handled)
-
-Exploratory visualizations for categorical and numeric features completed (bar plots, pie charts, histograms, boxplots)
-
-Correlation heatmap for numeric columns prepared
-
-Unnecessary columns (customerID) identified for removal
+```bash
+git clone https://github.com/PavanIllal/Telco-Customer-Churn.git
