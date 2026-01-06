@@ -61,7 +61,7 @@ The main column of interest is **`Churn`**:
 
 📂 **Project Notebooks**
 
-- Step 1: [Data Understanding & EDA](Step1_Data_Understanding/Step1_EDA.ipynb)  
+- Step 1: [Data Understanding & EDA](Step 1 Notebook: [Customer Retention Prediction](Step1_Data_Understanding/Customer_Retention_Predicition.ipynb))  
 - Step 2: [Data Cleaning & Preprocessing](Step2_Data_Cleaning/Step2_Cleaning.ipynb)  
 - Step 3: [Model Development](Step3_Modeling/Step3_Model.ipynb)  
 - Step 4: [Explainability & Deployment](Step4_Deployment/Step4_Deployment.ipynb)  
