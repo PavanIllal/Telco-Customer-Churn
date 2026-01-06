@@ -17,8 +17,7 @@ Challenges in taking timely preventive measures
 The goal of this project is to predict potential churn in advance and enable proactive retention strategies.
 
 📂 Dataset Understanding
-The dataset used is the Telco Customer Churn dataset from Kaggle (link
-).
+The dataset used is the Telco Customer Churn dataset from Kaggle (https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
 
 Rows: Each row represents a single customer
 
@@ -57,7 +56,8 @@ Evaluation & Insights
 🗺️ Project Roadmap
 
 Stage	Task	Status
-Stage 1	Data Understanding & Documentation	✅ Completed
+Stage 1	Data Understanding & Documentation	
+✅ Completed
 Stage 2	Data Cleaning & EDA	⏳ Pending
 Stage 3	Model Development	⏳ Pending
 Stage 4	Explainability & Deployment	⏳ Pending
